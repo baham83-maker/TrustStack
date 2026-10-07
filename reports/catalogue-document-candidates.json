@@ -1,0 +1,3522 @@
+{
+  "searchedAt": "2026-09-28T20:58:09.368Z",
+  "scope": "Catalogue ingredient/category names, not identified branded SKUs",
+  "sources": [
+    "NIH DSLD v9 search-filter (on-market labels)",
+    "Existing Informed Sport directory snapshot"
+  ],
+  "disclaimer": "A DSLD label is self-reported label content, not an independent quality test. A directory name match is not a certificate for the catalogue product or its batch. No scores or verified source records were changed.",
+  "totals": {
+    "products": 44,
+    "withLabelCandidates": 41,
+    "withDirectoryCandidates": 25,
+    "labelSearchFailures": 0,
+    "entriesWithPairedCandidates": 0,
+    "verifiedQualityDocuments": 0
+  },
+  "products": [
+    {
+      "productId": 964,
+      "name": "Algal Omega-3",
+      "catalogueBrand": "Product not specified",
+      "matchStatus": "Candidates only - no verified brand, SKU, formulation or batch association",
+      "labelStatus": "Checked",
+      "labelCandidates": [],
+      "qualityDirectoryCandidates": [],
+      "documentedChildCandidates": [],
+      "qualityDocumentsVerified": 0
+    },
+    {
+      "productId": 976,
+      "name": "Alpha GPC",
+      "catalogueBrand": "Product not specified",
+      "matchStatus": "Candidates only - no verified brand, SKU, formulation or batch association",
+      "labelStatus": "Checked",
+      "labelCandidates": [
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Nutricost",
+          "title": "Alpha GPC 600 mg",
+          "id": 269275,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/269275",
+          "upc": null,
+          "entryDate": "2022-06-16",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Evlution Nutrition",
+          "title": "Alpha GPC 300 mg",
+          "id": 302078,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/302078",
+          "upc": null,
+          "entryDate": "2024-01-24",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "BulkSupplements.com",
+          "title": "Alpha GPC Capsules 300 mg",
+          "id": 329912,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/329912",
+          "upc": null,
+          "entryDate": "2025-04-24",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "The Vitamin Shoppe",
+          "title": "Alpha GPC 300 mg",
+          "id": 245588,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/245588",
+          "upc": null,
+          "entryDate": "2021-03-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "NOW",
+          "title": "Alpha GPC 300 mg",
+          "id": 59894,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/59894",
+          "upc": null,
+          "entryDate": "2016-05-22",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        }
+      ],
+      "qualityDirectoryCandidates": [],
+      "documentedChildCandidates": [],
+      "qualityDocumentsVerified": 0
+    },
+    {
+      "productId": 3,
+      "name": "Ashwagandha",
+      "catalogueBrand": "Example Botanicals",
+      "matchStatus": "Candidates only - no verified brand, SKU, formulation or batch association",
+      "labelStatus": "Checked",
+      "labelCandidates": [
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Oregon's Wild Harvest",
+          "title": "Ashwagandha",
+          "id": 323200,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/323200",
+          "upc": null,
+          "entryDate": "2025-02-23",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Seeking Health",
+          "title": "Ashwagandha Extract",
+          "id": 210829,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/210829",
+          "upc": null,
+          "entryDate": "2020-01-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Antler Farms",
+          "title": "Ashwagandha",
+          "id": 333451,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/333451",
+          "upc": null,
+          "entryDate": "2025-06-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Maui Medicinal",
+          "title": "Ashwagandha",
+          "id": 235687,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/235687",
+          "upc": null,
+          "entryDate": "2020-09-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Herbal Hills",
+          "title": "Ashwagandha",
+          "id": 74939,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/74939",
+          "upc": null,
+          "entryDate": "2017-06-23",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        }
+      ],
+      "qualityDirectoryCandidates": [
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Nutriburst",
+          "title": "Ashwagandha KSM-66",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Puresport",
+          "title": "Ultra Ashwagandha KSM-66",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        }
+      ],
+      "documentedChildCandidates": [],
+      "qualityDocumentsVerified": 0
+    },
+    {
+      "productId": 961,
+      "name": "B12",
+      "catalogueBrand": "Product not specified",
+      "matchStatus": "Candidates only - no verified brand, SKU, formulation or batch association",
+      "labelStatus": "Checked",
+      "labelCandidates": [
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Bioclinic Naturals",
+          "title": "B12",
+          "id": 20788,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/20788",
+          "upc": null,
+          "entryDate": "2013-04-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Pure Encapsulations",
+          "title": "B12 Folate",
+          "id": 184302,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/184302",
+          "upc": null,
+          "entryDate": "2019-01-07",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Carotec",
+          "title": "Vitamin B12",
+          "id": 320976,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/320976",
+          "upc": null,
+          "entryDate": "2024-11-22",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Seeking Health",
+          "title": "Hydroxo B12",
+          "id": 210839,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/210839",
+          "upc": null,
+          "entryDate": "2020-01-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "DaVinci Laboratories of Vermont",
+          "title": "Chewable B12+",
+          "id": 242912,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/242912",
+          "upc": null,
+          "entryDate": "2021-01-22",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        }
+      ],
+      "qualityDirectoryCandidates": [
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Healthspan Elite",
+          "title": "Vitamin B12",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        }
+      ],
+      "documentedChildCandidates": [],
+      "qualityDocumentsVerified": 0
+    },
+    {
+      "productId": 227,
+      "name": "Beetroot Nitrate",
+      "catalogueBrand": "Example Performance",
+      "matchStatus": "Candidates only - no verified brand, SKU, formulation or batch association",
+      "labelStatus": "Checked",
+      "labelCandidates": [],
+      "qualityDirectoryCandidates": [],
+      "documentedChildCandidates": [],
+      "qualityDocumentsVerified": 0
+    },
+    {
+      "productId": 983,
+      "name": "Berberine",
+      "catalogueBrand": "Product not specified",
+      "matchStatus": "Candidates only - no verified brand, SKU, formulation or batch association",
+      "labelStatus": "Checked",
+      "labelCandidates": [
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Codeage",
+          "title": "Berberine Phytosome+",
+          "id": 333404,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/333404",
+          "upc": null,
+          "entryDate": "2025-05-21",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "SuperSmart",
+          "title": "Berberine 1000 mg",
+          "id": 315521,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/315521",
+          "upc": null,
+          "entryDate": "2024-10-24",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "NutraBetic",
+          "title": "Berberine+",
+          "id": 327459,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/327459",
+          "upc": null,
+          "entryDate": "2025-01-23",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "NutraBetic",
+          "title": "Berberine+",
+          "id": 327458,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/327458",
+          "upc": null,
+          "entryDate": "2025-02-23",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "We Like Vitamins",
+          "title": "Berberine",
+          "id": 244132,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/244132",
+          "upc": null,
+          "entryDate": "2021-02-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        }
+      ],
+      "qualityDirectoryCandidates": [],
+      "documentedChildCandidates": [],
+      "qualityDocumentsVerified": 0
+    },
+    {
+      "productId": 957,
+      "name": "Beta-Alanine",
+      "catalogueBrand": "Product not specified",
+      "matchStatus": "Candidates only - no verified brand, SKU, formulation or batch association",
+      "labelStatus": "Checked",
+      "labelCandidates": [
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "NOW Sports",
+          "title": "Beta-Alanine Powder",
+          "id": 314248,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/314248",
+          "upc": null,
+          "entryDate": "2024-11-22",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "MRM Nutrition",
+          "title": "Beta-Alanine",
+          "id": 305023,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/305023",
+          "upc": null,
+          "entryDate": "2024-09-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "GNC Beyond Raw Chemistry Labs",
+          "title": "Beta-Alanine 3.2 grams",
+          "id": 69301,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/69301",
+          "upc": null,
+          "entryDate": "2017-01-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "BodyTech",
+          "title": "Beta-Alanine",
+          "id": 64695,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/64695",
+          "upc": null,
+          "entryDate": "2016-09-22",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "GNC Pro Performance",
+          "title": "Beta-Alanine 3200 mg",
+          "id": 74724,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/74724",
+          "upc": null,
+          "entryDate": "2017-06-23",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        }
+      ],
+      "qualityDirectoryCandidates": [
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Now Foods",
+          "title": "NOW Sports Beta-Alanine Caps",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "PODIUM",
+          "title": "PODIUM Beta-Alanine",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Healthspan Elite",
+          "title": "Beta-Alanine (All Blacks)",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "MaxiNutrition",
+          "title": "Beta-Alanine",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        }
+      ],
+      "documentedChildCandidates": [],
+      "qualityDocumentsVerified": 0
+    },
+    {
+      "productId": 956,
+      "name": "Caffeine",
+      "catalogueBrand": "Product not specified",
+      "matchStatus": "Candidates only - no verified brand, SKU, formulation or batch association",
+      "labelStatus": "Checked",
+      "labelCandidates": [
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Kaged Muscle",
+          "title": "Caffeine",
+          "id": 323467,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/323467",
+          "upc": null,
+          "entryDate": "2025-02-23",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Kaged Muscle",
+          "title": "PurCaf Caffeine",
+          "id": 298805,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/298805",
+          "upc": null,
+          "entryDate": "2023-11-22",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "SR Sports Research",
+          "title": "L-Theanine & Caffeine",
+          "id": 326261,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/326261",
+          "upc": null,
+          "entryDate": "2025-01-23",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "The Genius Brand",
+          "title": "Genius Caffeine",
+          "id": 305639,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/305639",
+          "upc": null,
+          "entryDate": "2024-01-24",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Precision Engineered",
+          "title": "Caffeine 200 mg",
+          "id": 21369,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/21369",
+          "upc": null,
+          "entryDate": "2013-06-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        }
+      ],
+      "qualityDirectoryCandidates": [
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Amacx",
+          "title": "Drink Gel (Caffeine)",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "NAMEDSPORT&gt;",
+          "title": "Isotonic Power Gel with caffeine",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Nduranz",
+          "title": "Nrgy Gel 45 - with caffeine",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Amacx",
+          "title": "Caffeine Tabs",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Amacx",
+          "title": "Turbo Gel (Caffeine)",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        }
+      ],
+      "documentedChildCandidates": [],
+      "qualityDocumentsVerified": 0
+    },
+    {
+      "productId": 19,
+      "name": "Calcium",
+      "catalogueBrand": "Example Minerals",
+      "matchStatus": "Candidates only - no verified brand, SKU, formulation or batch association",
+      "labelStatus": "Checked",
+      "labelCandidates": [
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Vitabase",
+          "title": "Calcium",
+          "id": 7109,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/7109",
+          "upc": null,
+          "entryDate": "2012-03-23",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Thorne",
+          "title": "Calcium",
+          "id": 336311,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/336311",
+          "upc": null,
+          "entryDate": "2025-07-24",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Natural Dynamix",
+          "title": "Calcium DX",
+          "id": 55187,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/55187",
+          "upc": null,
+          "entryDate": "2016-01-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "vitafusion",
+          "title": "Calcium 500 mg",
+          "id": 12928,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/12928",
+          "upc": null,
+          "entryDate": "2012-10-01",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "vitafusion",
+          "title": "Fiber+Calcium",
+          "id": 177088,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/177088",
+          "upc": null,
+          "entryDate": "2018-05-24",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        }
+      ],
+      "qualityDirectoryCandidates": [
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Healthspan Elite",
+          "title": "Calcium Complex",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        }
+      ],
+      "documentedChildCandidates": [],
+      "qualityDocumentsVerified": 0
+    },
+    {
+      "productId": 954,
+      "name": "Casein Protein",
+      "catalogueBrand": "Product not specified",
+      "matchStatus": "Candidates only - no verified brand, SKU, formulation or batch association",
+      "labelStatus": "Checked",
+      "labelCandidates": [
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Body Attack Sports Nutrition",
+          "title": "100% Casein Protein Vanilla Cream",
+          "id": 334161,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/334161",
+          "upc": null,
+          "entryDate": "2025-09-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Body Attack Sports Nutrition",
+          "title": "100% Casein Protein Chocolate Cream",
+          "id": 334155,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/334155",
+          "upc": null,
+          "entryDate": "2025-07-24",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Body Attack Sports Nutrition",
+          "title": "100% Casein Protein Chocolate Cream",
+          "id": 334148,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/334148",
+          "upc": null,
+          "entryDate": "2025-07-24",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Body Attack Sports Nutrition",
+          "title": "100% Casein Protein Strawberry Cream",
+          "id": 334152,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/334152",
+          "upc": null,
+          "entryDate": "2025-07-24",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "BulkSupplements.com",
+          "title": "Casein Protein Powder 30 g",
+          "id": 330528,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/330528",
+          "upc": null,
+          "entryDate": "2025-04-24",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        }
+      ],
+      "qualityDirectoryCandidates": [],
+      "documentedChildCandidates": [],
+      "qualityDocumentsVerified": 0
+    },
+    {
+      "productId": 973,
+      "name": "Chamomile",
+      "catalogueBrand": "Product not specified",
+      "matchStatus": "Candidates only - no verified brand, SKU, formulation or batch association",
+      "labelStatus": "Checked",
+      "labelCandidates": [
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Nature's Way",
+          "title": "Standardized Chamomile",
+          "id": 79940,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/79940",
+          "upc": null,
+          "entryDate": "2017-10-21",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Alvita",
+          "title": "Chamomile",
+          "id": 268551,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/268551",
+          "upc": null,
+          "entryDate": "2022-06-16",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Celestial Seasonings",
+          "title": "TeaWell Sleep Chamomile Mint",
+          "id": 320869,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/320869",
+          "upc": null,
+          "entryDate": "2024-11-22",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "FGO (From Great Origins)",
+          "title": "Organic Chamomile Tea Bags",
+          "id": 321097,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/321097",
+          "upc": null,
+          "entryDate": "2024-11-22",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Herbalist & Alchemist",
+          "title": "Roman Chamomile",
+          "id": 180752,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/180752",
+          "upc": null,
+          "entryDate": "2019-01-07",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        }
+      ],
+      "qualityDirectoryCandidates": [],
+      "documentedChildCandidates": [],
+      "qualityDocumentsVerified": 0
+    },
+    {
+      "productId": 977,
+      "name": "Citicoline",
+      "catalogueBrand": "Product not specified",
+      "matchStatus": "Candidates only - no verified brand, SKU, formulation or batch association",
+      "labelStatus": "Checked",
+      "labelCandidates": [
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "AOR Advanced Orthomolecular Research",
+          "title": "Citicoline",
+          "id": 305918,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/305918",
+          "upc": null,
+          "entryDate": "2024-03-22",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Pure Nootropics",
+          "title": "Citicoline",
+          "id": 316490,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/316490",
+          "upc": null,
+          "entryDate": "2024-07-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "DaVinci Laboratories",
+          "title": "Liposomal Citicoline with Cognizin",
+          "id": 313209,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/313209",
+          "upc": null,
+          "entryDate": "2024-06-20",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Swanson",
+          "title": "Cognizin Citicoline 500 mg",
+          "id": 308502,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/308502",
+          "upc": null,
+          "entryDate": "2024-02-22",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Zazzee Naturals",
+          "title": "Citicoline (CDP Choline) 500 mg",
+          "id": 318697,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/318697",
+          "upc": null,
+          "entryDate": "2024-09-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        }
+      ],
+      "qualityDirectoryCandidates": [],
+      "documentedChildCandidates": [],
+      "qualityDocumentsVerified": 0
+    },
+    {
+      "productId": 958,
+      "name": "Citrulline Malate",
+      "catalogueBrand": "Product not specified",
+      "matchStatus": "Candidates only - no verified brand, SKU, formulation or batch association",
+      "labelStatus": "Checked",
+      "labelCandidates": [
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Swolverine",
+          "title": "Citrulline Malate Unflavored",
+          "id": 241985,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/241985",
+          "upc": null,
+          "entryDate": "2021-02-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "LiveLong",
+          "title": "Citrulline Malate",
+          "id": 21744,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/21744",
+          "upc": null,
+          "entryDate": "2013-05-24",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "NutraKey Health Performance",
+          "title": "L-Citrulline Malate",
+          "id": 240137,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/240137",
+          "upc": null,
+          "entryDate": "2020-11-21",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Nutricost",
+          "title": "L-Citrulline Malate 2:1 3 g Unflavored",
+          "id": 223363,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/223363",
+          "upc": null,
+          "entryDate": "2020-06-24",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Swolverine",
+          "title": "Citrulline Malate Unflavored",
+          "id": 321070,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/321070",
+          "upc": null,
+          "entryDate": "2024-11-22",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        }
+      ],
+      "qualityDirectoryCandidates": [],
+      "documentedChildCandidates": [],
+      "qualityDocumentsVerified": 0
+    },
+    {
+      "productId": 965,
+      "name": "CoQ10",
+      "catalogueBrand": "Product not specified",
+      "matchStatus": "Candidates only - no verified brand, SKU, formulation or batch association",
+      "labelStatus": "Checked",
+      "labelCandidates": [
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Bluebonnet",
+          "title": "CellularActive CoQ10 Ubiquinol 100 mg",
+          "id": 314998,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/314998",
+          "upc": null,
+          "entryDate": "2024-06-20",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Bluebonnet",
+          "title": "CellularActive CoQ10 Ubiquinol 100 mg",
+          "id": 332434,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/332434",
+          "upc": null,
+          "entryDate": "2025-05-21",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Premium Certified",
+          "title": "CoQ10",
+          "id": 308058,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/308058",
+          "upc": null,
+          "entryDate": "2024-03-22",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Bluebonnet",
+          "title": "CellularActive CoQ10 Ubiquinol 100 mg",
+          "id": 279729,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/279729",
+          "upc": null,
+          "entryDate": "2022-12-13",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Genceutic Naturals",
+          "title": "24hr CoQ10 100 mg",
+          "id": 191074,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/191074",
+          "upc": null,
+          "entryDate": "2019-02-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        }
+      ],
+      "qualityDirectoryCandidates": [],
+      "documentedChildCandidates": [],
+      "qualityDocumentsVerified": 0
+    },
+    {
+      "productId": 967,
+      "name": "Collagen",
+      "catalogueBrand": "Product not specified",
+      "matchStatus": "Candidates only - no verified brand, SKU, formulation or batch association",
+      "labelStatus": "Checked",
+      "labelCandidates": [
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "NaturesPlus",
+          "title": "Collagen Peptides",
+          "id": 249656,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/249656",
+          "upc": null,
+          "entryDate": "2021-05-22",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "CATALO",
+          "title": "FlexiJoint Muscle Collagen",
+          "id": 303088,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/303088",
+          "upc": null,
+          "entryDate": "2023-12-14",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "NaturesPlus",
+          "title": "Collagen Peptides Chocolate",
+          "id": 322618,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/322618",
+          "upc": null,
+          "entryDate": "2024-12-21",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "NaturesPlus",
+          "title": "Collagen Peptides Vanilla",
+          "id": 318920,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/318920",
+          "upc": null,
+          "entryDate": "2024-09-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Feel Great Vitamin Co.",
+          "title": "Collagen Peptides 3,000 mg",
+          "id": 243660,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/243660",
+          "upc": null,
+          "entryDate": "2021-02-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        }
+      ],
+      "qualityDirectoryCandidates": [
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "NG Nutra",
+          "title": "AC7 - Advanced Collagen",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "One Percent Supplements",
+          "title": "One Percent Collagen",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Optimo",
+          "title": "MILU Hydrolyzed Collagen with Vitamin C",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Optimo",
+          "title": "MILU Marine Hydrolyzed Collagen",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Amacx",
+          "title": "Collagen",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        }
+      ],
+      "documentedChildCandidates": [],
+      "qualityDocumentsVerified": 0
+    },
+    {
+      "productId": 1,
+      "name": "Creatine Monohydrate",
+      "catalogueBrand": "Example Performance",
+      "matchStatus": "Candidates only - no verified brand, SKU, formulation or batch association",
+      "labelStatus": "Checked",
+      "labelCandidates": [
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Pure Advantage",
+          "title": "Creatine Monohydrate",
+          "id": 231495,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/231495",
+          "upc": null,
+          "entryDate": "2020-08-23",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "NOW Sports",
+          "title": "Micronized Creatine Monohydrate",
+          "id": 245315,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/245315",
+          "upc": null,
+          "entryDate": "2021-03-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "NOW Sports",
+          "title": "Creatine Monohydrate 1200 mg",
+          "id": 62406,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/62406",
+          "upc": null,
+          "entryDate": "2016-07-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "NutraBio Performance",
+          "title": "Creatine Monohydrate",
+          "id": 329369,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/329369",
+          "upc": null,
+          "entryDate": "2025-05-21",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "BodyTech",
+          "title": "Creatine Monohydrate",
+          "id": 183678,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/183678",
+          "upc": null,
+          "entryDate": "2018-11-21",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        }
+      ],
+      "qualityDirectoryCandidates": [
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "NG Nutra",
+          "title": "CM80 - Creatine Monohydrate",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Now Foods",
+          "title": "NOW Sports Creatine Monohydrate Capsules",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Now Foods",
+          "title": "NOW Sports Creatine Monohydrate Powder",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Nutritech",
+          "title": "Pro Sport Creatine Monohydrate",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Nutrition X",
+          "title": "Creatine Monohydrate",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        }
+      ],
+      "documentedChildCandidates": [],
+      "qualityDocumentsVerified": 0
+    },
+    {
+      "productId": 23,
+      "name": "Curcumin",
+      "catalogueBrand": "Example Botanicals",
+      "matchStatus": "Candidates only - no verified brand, SKU, formulation or batch association",
+      "labelStatus": "Checked",
+      "labelCandidates": [
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "AOR Advanced Orthomolecular Research Ultra",
+          "title": "Curcumin Ultra",
+          "id": 214573,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/214573",
+          "upc": null,
+          "entryDate": "2020-03-24",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "AOR Advanced Orthomolecular Research Advanced",
+          "title": "Curcumin Active",
+          "id": 214564,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/214564",
+          "upc": null,
+          "entryDate": "2020-03-24",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Priority One Nutritional Supplements",
+          "title": "Curcumin 1,000",
+          "id": 235721,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/235721",
+          "upc": null,
+          "entryDate": "2020-09-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Puro Omega",
+          "title": "Curcumin Complex 1650 mg",
+          "id": 321254,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/321254",
+          "upc": null,
+          "entryDate": "2025-03-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Pharmax",
+          "title": "Curcumin Complex",
+          "id": 55657,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/55657",
+          "upc": null,
+          "entryDate": "2016-01-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        }
+      ],
+      "qualityDirectoryCandidates": [
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "PILLAR Performance",
+          "title": "Curcumin Advanced + - Joint &amp; Inflammation",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "SierraSil",
+          "title": "Joint Formula Curcumin",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        }
+      ],
+      "documentedChildCandidates": [],
+      "qualityDocumentsVerified": 0
+    },
+    {
+      "productId": 955,
+      "name": "Electrolytes",
+      "catalogueBrand": "Product not specified",
+      "matchStatus": "Candidates only - no verified brand, SKU, formulation or batch association",
+      "labelStatus": "Checked",
+      "labelCandidates": [
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Ryno Power",
+          "title": "Electrolytes",
+          "id": 231282,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/231282",
+          "upc": null,
+          "entryDate": "2020-07-23",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "NutriONN",
+          "title": "Electrolytes",
+          "id": 308893,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/308893",
+          "upc": null,
+          "entryDate": "2024-05-23",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Nuun",
+          "title": "Electrolytes Tri-Berry",
+          "id": 82120,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/82120",
+          "upc": null,
+          "entryDate": "2017-12-22",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Sundown Naturals",
+          "title": "Essential Electrolytes",
+          "id": 56746,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/56746",
+          "upc": null,
+          "entryDate": "2016-02-23",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "ILN Iron Labs Nutrition",
+          "title": "Electrolytes Tablets",
+          "id": 288655,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/288655",
+          "upc": null,
+          "entryDate": "2023-06-22",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        }
+      ],
+      "qualityDirectoryCandidates": [
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Musashi",
+          "title": "Electrolytes",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "NOCCO",
+          "title": "NOCCO Electrolytes",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "One Percent Performance",
+          "title": "Electrolytes",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "PAS",
+          "title": "Creatine + Electrolytes",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "PAS",
+          "title": "Electrolytes",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        }
+      ],
+      "documentedChildCandidates": [],
+      "qualityDocumentsVerified": 0
+    },
+    {
+      "productId": 962,
+      "name": "Folate",
+      "catalogueBrand": "Product not specified",
+      "matchStatus": "Candidates only - no verified brand, SKU, formulation or batch association",
+      "labelStatus": "Checked",
+      "labelCandidates": [
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Pure Encapsulations",
+          "title": "Folate 1,000",
+          "id": 184894,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/184894",
+          "upc": null,
+          "entryDate": "2019-04-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Pure Encapsulations",
+          "title": "Folate 400",
+          "id": 184899,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/184899",
+          "upc": null,
+          "entryDate": "2019-04-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Seeking Health",
+          "title": "Active Folate",
+          "id": 210770,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/210770",
+          "upc": null,
+          "entryDate": "2020-01-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Pure Encapsulations",
+          "title": "Folate 5,000",
+          "id": 293963,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/293963",
+          "upc": null,
+          "entryDate": "2023-08-23",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Genestra Brands",
+          "title": "Active Folate 1000",
+          "id": 211151,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/211151",
+          "upc": null,
+          "entryDate": "2020-01-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        }
+      ],
+      "qualityDirectoryCandidates": [],
+      "documentedChildCandidates": [],
+      "qualityDocumentsVerified": 0
+    },
+    {
+      "productId": 978,
+      "name": "Folic Acid",
+      "catalogueBrand": "Product not specified",
+      "matchStatus": "Candidates only - no verified brand, SKU, formulation or batch association",
+      "labelStatus": "Checked",
+      "labelCandidates": [
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Pure Advantage",
+          "title": "Folic Acid 800 mcg Spray",
+          "id": 180744,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/180744",
+          "upc": null,
+          "entryDate": "2018-09-21",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Higher Nature",
+          "title": "Folic Acid",
+          "id": 223444,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/223444",
+          "upc": null,
+          "entryDate": "2020-06-24",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "BulkSupplements.com",
+          "title": "Folic Acid",
+          "id": 312501,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/312501",
+          "upc": null,
+          "entryDate": "2024-05-23",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "BulkSupplements.com",
+          "title": "Folic Acid",
+          "id": 312502,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/312502",
+          "upc": null,
+          "entryDate": "2024-05-23",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "BulkSupplements.com",
+          "title": "Folic Acid",
+          "id": 312503,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/312503",
+          "upc": null,
+          "entryDate": "2024-05-23",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        }
+      ],
+      "qualityDirectoryCandidates": [],
+      "documentedChildCandidates": [],
+      "qualityDocumentsVerified": 0
+    },
+    {
+      "productId": 981,
+      "name": "Ginseng",
+      "catalogueBrand": "Product not specified",
+      "matchStatus": "Candidates only - no verified brand, SKU, formulation or batch association",
+      "labelStatus": "Checked",
+      "labelCandidates": [
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Exchange Select",
+          "title": "Ginseng 250 mg",
+          "id": 76736,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/76736",
+          "upc": null,
+          "entryDate": "2017-07-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "21st Century",
+          "title": "Ginseng Extract",
+          "id": 205601,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/205601",
+          "upc": null,
+          "entryDate": "2019-08-23",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Ron Teeguarden's Dragon Herbs",
+          "title": "Ginseng Sublime",
+          "id": 279004,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/279004",
+          "upc": null,
+          "entryDate": "2022-12-13",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Ron Teeguarden's Dragon Herbs",
+          "title": "Ginseng Sublime",
+          "id": 279005,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/279005",
+          "upc": null,
+          "entryDate": "2022-12-13",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Ron Teeguarden's Dragon Herbs",
+          "title": "Ginseng Sublime",
+          "id": 279003,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/279003",
+          "upc": null,
+          "entryDate": "2022-12-13",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        }
+      ],
+      "qualityDirectoryCandidates": [
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Etixx",
+          "title": "GINSENG &amp; GUARANA ENERGY GEL + VITAMIN C",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        }
+      ],
+      "documentedChildCandidates": [],
+      "qualityDocumentsVerified": 0
+    },
+    {
+      "productId": 966,
+      "name": "Glucosamine",
+      "catalogueBrand": "Product not specified",
+      "matchStatus": "Candidates only - no verified brand, SKU, formulation or batch association",
+      "labelStatus": "Checked",
+      "labelCandidates": [
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Bronson Laboratories",
+          "title": "Glucosamine and Chondroitin",
+          "id": 257495,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/257495",
+          "upc": null,
+          "entryDate": "2021-12-18",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Carlson",
+          "title": "Glucosamine & Chondroitin",
+          "id": 216195,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/216195",
+          "upc": null,
+          "entryDate": "2020-03-24",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Carlson",
+          "title": "Glucosamine & Chondroitin",
+          "id": 216202,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/216202",
+          "upc": null,
+          "entryDate": "2020-03-24",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Kala Health",
+          "title": "MSM Glucosamine Chondroitin",
+          "id": 311318,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/311318",
+          "upc": null,
+          "entryDate": "2024-09-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Nature's Way",
+          "title": "GS-500 Glucosamine Sulfate",
+          "id": 212455,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/212455",
+          "upc": null,
+          "entryDate": "2019-12-22",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        }
+      ],
+      "qualityDirectoryCandidates": [
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Healthspan Elite",
+          "title": "Joint Physio Glucosamine &amp; Chondroitin",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        }
+      ],
+      "documentedChildCandidates": [],
+      "qualityDocumentsVerified": 0
+    },
+    {
+      "productId": 971,
+      "name": "Glycine",
+      "catalogueBrand": "Product not specified",
+      "matchStatus": "Candidates only - no verified brand, SKU, formulation or batch association",
+      "labelStatus": "Checked",
+      "labelCandidates": [
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Protocol For Life Balance",
+          "title": "Glycine",
+          "id": 14922,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/14922",
+          "upc": null,
+          "entryDate": "2012-10-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "NOW",
+          "title": "Glycine",
+          "id": 53450,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/53450",
+          "upc": null,
+          "entryDate": "2015-11-24",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Metabolic Maintenance",
+          "title": "Glycine Sticks",
+          "id": 24870,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/24870",
+          "upc": null,
+          "entryDate": "2013-08-23",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "BulkSupplements.com",
+          "title": "Glycine",
+          "id": 330955,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/330955",
+          "upc": null,
+          "entryDate": "2025-06-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "BulkSupplements.com",
+          "title": "Glycine",
+          "id": 330958,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/330958",
+          "upc": null,
+          "entryDate": "2025-04-24",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        }
+      ],
+      "qualityDirectoryCandidates": [
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Centenarian Road",
+          "title": "Glycine Boost Centenarian",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        }
+      ],
+      "documentedChildCandidates": [],
+      "qualityDocumentsVerified": 0
+    },
+    {
+      "productId": 982,
+      "name": "Green Tea Extract",
+      "catalogueBrand": "Product not specified",
+      "matchStatus": "Candidates only - no verified brand, SKU, formulation or batch association",
+      "labelStatus": "Checked",
+      "labelCandidates": [
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "21st Century",
+          "title": "Green Tea Extract",
+          "id": 205747,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/205747",
+          "upc": null,
+          "entryDate": "2019-08-23",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Health Logics",
+          "title": "Green Tea Extract",
+          "id": 217286,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/217286",
+          "upc": null,
+          "entryDate": "2020-04-23",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "MyTrition",
+          "title": "Green Tea Extract",
+          "id": 80716,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/80716",
+          "upc": null,
+          "entryDate": "2017-11-20",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "MyTrition",
+          "title": "Green Tea Extract",
+          "id": 81305,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/81305",
+          "upc": null,
+          "entryDate": "2017-12-22",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "MET-Rx",
+          "title": "Extra Strength Green Tea Extract",
+          "id": 33670,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/33670",
+          "upc": null,
+          "entryDate": "2014-05-23",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        }
+      ],
+      "qualityDirectoryCandidates": [],
+      "documentedChildCandidates": [],
+      "qualityDocumentsVerified": 0
+    },
+    {
+      "productId": 20,
+      "name": "Iron",
+      "catalogueBrand": "Example Health",
+      "matchStatus": "Candidates only - no verified brand, SKU, formulation or batch association",
+      "labelStatus": "Checked",
+      "labelCandidates": [
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Douglas Laboratories",
+          "title": "Ferronyl Iron",
+          "id": 232593,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/232593",
+          "upc": null,
+          "entryDate": "2020-08-23",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "AOR Advanced Orthomolecular Research Advanced",
+          "title": "Ortho Iron",
+          "id": 214846,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/214846",
+          "upc": null,
+          "entryDate": "2020-03-24",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Woodstock Vitamins",
+          "title": "Easy Iron",
+          "id": 215623,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/215623",
+          "upc": null,
+          "entryDate": "2020-03-24",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Terry Naturally",
+          "title": "Clinical Iron",
+          "id": 51697,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/51697",
+          "upc": null,
+          "entryDate": "2015-10-22",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Pure Encapsulations",
+          "title": "Iron Liquid",
+          "id": 302461,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/302461",
+          "upc": null,
+          "entryDate": "2024-02-22",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        }
+      ],
+      "qualityDirectoryCandidates": [
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Amacx",
+          "title": "Iron",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Orthosapri Pro",
+          "title": "Iron enriched Lactic Acid Bacteria",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "PILLAR Performance",
+          "title": "Iron Advanced + C - Blood &amp; Energy Support",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Athena",
+          "title": "PROTEIN SHAKE + IRON",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Athena",
+          "title": "Plant Protein Shake + Iron",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        }
+      ],
+      "documentedChildCandidates": [],
+      "qualityDocumentsVerified": 0
+    },
+    {
+      "productId": 972,
+      "name": "L-Theanine",
+      "catalogueBrand": "Product not specified",
+      "matchStatus": "Candidates only - no verified brand, SKU, formulation or batch association",
+      "labelStatus": "Checked",
+      "labelCandidates": [
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Woodstock Vitamins",
+          "title": "L-Theanine 200 mg",
+          "id": 263070,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/263070",
+          "upc": null,
+          "entryDate": "2022-04-11",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "XYMOGEN",
+          "title": "L-Theanine",
+          "id": 303742,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/303742",
+          "upc": null,
+          "entryDate": "2023-12-14",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Bluebonnet",
+          "title": "L-Theanine 200 mg",
+          "id": 203845,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/203845",
+          "upc": null,
+          "entryDate": "2019-06-24",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Bluebonnet",
+          "title": "L-Theanine 200 mg",
+          "id": 203818,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/203818",
+          "upc": null,
+          "entryDate": "2019-06-24",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Healthy Origins",
+          "title": "L-Theanine 100 mg",
+          "id": 269118,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/269118",
+          "upc": null,
+          "entryDate": "2022-06-16",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        }
+      ],
+      "qualityDirectoryCandidates": [],
+      "documentedChildCandidates": [],
+      "qualityDocumentsVerified": 0
+    },
+    {
+      "productId": 975,
+      "name": "Lion's Mane",
+      "catalogueBrand": "Product not specified",
+      "matchStatus": "Candidates only - no verified brand, SKU, formulation or batch association",
+      "labelStatus": "Checked",
+      "labelCandidates": [
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Biotech Nutritions",
+          "title": "Lion's Mane 1000 mg",
+          "id": 244058,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/244058",
+          "upc": null,
+          "entryDate": "2021-02-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Host Defense Mushrooms",
+          "title": "Lion's Mane",
+          "id": 312395,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/312395",
+          "upc": null,
+          "entryDate": "2024-07-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Host Defense Mushrooms",
+          "title": "Lion's Mane",
+          "id": 312394,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/312394",
+          "upc": null,
+          "entryDate": "2024-07-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Host Defense Mushrooms",
+          "title": "Lion's Mane",
+          "id": 312243,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/312243",
+          "upc": null,
+          "entryDate": "2024-06-20",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Host Defense Mushrooms",
+          "title": "Lion's Mane",
+          "id": 312244,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/312244",
+          "upc": null,
+          "entryDate": "2024-06-20",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        }
+      ],
+      "qualityDirectoryCandidates": [],
+      "documentedChildCandidates": [],
+      "qualityDocumentsVerified": 0
+    },
+    {
+      "productId": 960,
+      "name": "Magnesium",
+      "catalogueBrand": "Product not specified",
+      "matchStatus": "Candidates only - no verified brand, SKU, formulation or batch association",
+      "labelStatus": "Checked",
+      "labelCandidates": [
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Nutra Sport",
+          "title": "Magnesium",
+          "id": 19279,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/19279",
+          "upc": null,
+          "entryDate": "2013-05-24",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "VitaMonk",
+          "title": "Quad-Magnesium",
+          "id": 242165,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/242165",
+          "upc": null,
+          "entryDate": "2021-03-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Vitamin World",
+          "title": "Magnesium Citrate",
+          "id": 21158,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/21158",
+          "upc": null,
+          "entryDate": "2013-05-24",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "NutriCology",
+          "title": "Magnesium Citrate",
+          "id": 235550,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/235550",
+          "upc": null,
+          "entryDate": "2020-09-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Allergy Research Group",
+          "title": "Magnesium Citrate",
+          "id": 233300,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/233300",
+          "upc": null,
+          "entryDate": "2020-08-23",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        }
+      ],
+      "qualityDirectoryCandidates": [
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "NAMEDSPORT&gt;",
+          "title": "Magnesium Liquid + Vitamin B6",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "PILLAR Performance",
+          "title": "Triple Magnesium Powder - Professional Recovery",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "PILLAR Performance",
+          "title": "Triple Magnesium - Professional Recovery",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Powerbar",
+          "title": "Powerbar Magnesium Liquid",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Precision Engineered by Holland &amp; Barrett",
+          "title": "Magnesium &amp; Zinc",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        }
+      ],
+      "documentedChildCandidates": [],
+      "qualityDocumentsVerified": 0
+    },
+    {
+      "productId": 969,
+      "name": "Magnesium Glycinate",
+      "catalogueBrand": "Product not specified",
+      "matchStatus": "Candidates only - no verified brand, SKU, formulation or batch association",
+      "labelStatus": "Checked",
+      "labelCandidates": [
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Vinco's",
+          "title": "Magnesium Glycinate",
+          "id": 33919,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/33919",
+          "upc": null,
+          "entryDate": "2014-06-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Metabolic Maintenance",
+          "title": "Magnesium Glycinate",
+          "id": 25018,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/25018",
+          "upc": null,
+          "entryDate": "2013-08-23",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "KAL",
+          "title": "Magnesium Glycinate 400",
+          "id": 255079,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/255079",
+          "upc": null,
+          "entryDate": "2021-08-23",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "BulkSupplements.com",
+          "title": "Magnesium Glycinate",
+          "id": 310750,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/310750",
+          "upc": null,
+          "entryDate": "2024-03-22",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "The Vitamin Shoppe",
+          "title": "Magnesium Glycinate 400 mg",
+          "id": 201834,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/201834",
+          "upc": null,
+          "entryDate": "2019-05-28",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        }
+      ],
+      "qualityDirectoryCandidates": [
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Revive",
+          "title": "Magnesium Glycinate",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "KAGED",
+          "title": "Magnesium Glycinate + Malate",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        }
+      ],
+      "documentedChildCandidates": [],
+      "qualityDocumentsVerified": 0
+    },
+    {
+      "productId": 24,
+      "name": "Melatonin",
+      "catalogueBrand": "Example Sleep",
+      "matchStatus": "Candidates only - no verified brand, SKU, formulation or batch association",
+      "labelStatus": "Checked",
+      "labelCandidates": [
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Village Vitality",
+          "title": "Sleep with Valerian & Melatonin",
+          "id": 216782,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/216782",
+          "upc": null,
+          "entryDate": "2020-03-24",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Pure Encapsulations",
+          "title": "Melatonin-SR",
+          "id": 277770,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/277770",
+          "upc": null,
+          "entryDate": "2022-11-22",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Wellness Resources",
+          "title": "Melatonin 3 mg",
+          "id": 320628,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/320628",
+          "upc": null,
+          "entryDate": "2024-10-24",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Pure Encapsulations",
+          "title": "Melatonin-SR",
+          "id": 299064,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/299064",
+          "upc": null,
+          "entryDate": "2023-11-22",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "SuperSmart",
+          "title": "Melatonin 2 mg",
+          "id": 332395,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/332395",
+          "upc": null,
+          "entryDate": "2025-06-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        }
+      ],
+      "qualityDirectoryCandidates": [],
+      "documentedChildCandidates": [],
+      "qualityDocumentsVerified": 0
+    },
+    {
+      "productId": 963,
+      "name": "Multivitamins",
+      "catalogueBrand": "Product not specified",
+      "matchStatus": "Candidates only - no verified brand, SKU, formulation or batch association",
+      "labelStatus": "Checked",
+      "labelCandidates": [
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Simply Supplements",
+          "title": "Multivitamins",
+          "id": 70167,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/70167",
+          "upc": null,
+          "entryDate": "2017-01-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Nature Made",
+          "title": "Digestive Probiotics + Multivitamins Women's Dual Action",
+          "id": 180293,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/180293",
+          "upc": null,
+          "entryDate": "2018-09-21",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Berkley & Jensen",
+          "title": "Women's Daily Multivitamins & Minerals",
+          "id": 26802,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/26802",
+          "upc": null,
+          "entryDate": "2013-10-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Simply Supplements",
+          "title": "A-Z Multivitamins & Minerals",
+          "id": 70158,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/70158",
+          "upc": null,
+          "entryDate": "2017-01-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "BulkSupplements.com",
+          "title": "Multivitamins 1000 mg Softgels",
+          "id": 312978,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/312978",
+          "upc": null,
+          "entryDate": "2024-05-23",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        }
+      ],
+      "qualityDirectoryCandidates": [],
+      "documentedChildCandidates": [],
+      "qualityDocumentsVerified": 0
+    },
+    {
+      "productId": 15,
+      "name": "Omega-3 Fish Oil",
+      "catalogueBrand": "Example Nutrition",
+      "matchStatus": "Candidates only - no verified brand, SKU, formulation or batch association",
+      "labelStatus": "Checked",
+      "labelCandidates": [
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Spring Valley",
+          "title": "Omega-3 Fish Oil",
+          "id": 178317,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/178317",
+          "upc": null,
+          "entryDate": "2018-06-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Spring Valley",
+          "title": "Omega-3 Fish Oil",
+          "id": 178792,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/178792",
+          "upc": null,
+          "entryDate": "2018-07-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Spring Valley",
+          "title": "Omega-3 Fish Oil",
+          "id": 178362,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/178362",
+          "upc": null,
+          "entryDate": "2018-06-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Spring Valley",
+          "title": "Omega-3 Fish Oil",
+          "id": 178399,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/178399",
+          "upc": null,
+          "entryDate": "2018-06-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Spring Valley",
+          "title": "Omega-3 Fish Oil",
+          "id": 178384,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/178384",
+          "upc": null,
+          "entryDate": "2018-06-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        }
+      ],
+      "qualityDirectoryCandidates": [
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Parasol Nutrition",
+          "title": "Omega-3 Fish Oil",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        }
+      ],
+      "documentedChildCandidates": [],
+      "qualityDocumentsVerified": 0
+    },
+    {
+      "productId": 953,
+      "name": "Plant Protein",
+      "catalogueBrand": "Product not specified",
+      "matchStatus": "Candidates only - no verified brand, SKU, formulation or batch association",
+      "labelStatus": "Checked",
+      "labelCandidates": [
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "NutraBio",
+          "title": "Plant Protein Snickerdoodle Cookie",
+          "id": 248571,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/248571",
+          "upc": null,
+          "entryDate": "2021-04-22",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Biochem",
+          "title": "P 100% Plant Protein Vanilla Flavor",
+          "id": 258877,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/258877",
+          "upc": null,
+          "entryDate": "2022-01-22",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "NB Pure Pure Vegan",
+          "title": "Plant Protein+",
+          "id": 263815,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/263815",
+          "upc": null,
+          "entryDate": "2022-04-11",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "NutraBio",
+          "title": "Plant Protein German Chocolate Cake",
+          "id": 248373,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/248373",
+          "upc": null,
+          "entryDate": "2021-07-27",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "NutraBio",
+          "title": "Plant Protein Mochaccino Mousse Cake",
+          "id": 248574,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/248574",
+          "upc": null,
+          "entryDate": "2021-04-22",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        }
+      ],
+      "qualityDirectoryCandidates": [
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "PILLAR Performance",
+          "title": "Plant Protein - Professional Recovery",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Precision Engineered by Holland &amp; Barrett",
+          "title": "Plant Protein Bar",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Precision Engineered by Holland &amp; Barrett",
+          "title": "Plant Protein",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "WUP IT BACK",
+          "title": "Pure Plant Protein",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Xendurance",
+          "title": "Plant Protein + Greens",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        }
+      ],
+      "documentedChildCandidates": [],
+      "qualityDocumentsVerified": 0
+    },
+    {
+      "productId": 979,
+      "name": "Prenatal Multivitamins",
+      "catalogueBrand": "Product not specified",
+      "matchStatus": "Candidates only - no verified brand, SKU, formulation or batch association",
+      "labelStatus": "Checked",
+      "labelCandidates": [],
+      "qualityDirectoryCandidates": [],
+      "documentedChildCandidates": [],
+      "qualityDocumentsVerified": 0
+    },
+    {
+      "productId": 968,
+      "name": "Probiotics",
+      "catalogueBrand": "Product not specified",
+      "matchStatus": "Candidates only - no verified brand, SKU, formulation or batch association",
+      "labelStatus": "Checked",
+      "labelCandidates": [
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "NewRhythm",
+          "title": "Probiotics",
+          "id": 240405,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/240405",
+          "upc": null,
+          "entryDate": "2020-12-26",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Dr Tobias",
+          "title": "Probiotics",
+          "id": 272254,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/272254",
+          "upc": null,
+          "entryDate": "2022-08-23",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Health Nurture",
+          "title": "Probiotics",
+          "id": 308933,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/308933",
+          "upc": null,
+          "entryDate": "2024-05-23",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Dr. Ohhira's",
+          "title": "Probiotics",
+          "id": 295780,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/295780",
+          "upc": null,
+          "entryDate": "2023-06-22",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Primal Blueprint",
+          "title": "Primal Probiotics",
+          "id": 249674,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/249674",
+          "upc": null,
+          "entryDate": "2021-07-27",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        }
+      ],
+      "qualityDirectoryCandidates": [
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Activated Probiotics",
+          "title": "Activated Probiotics Biome Recovery Probiotic / Activated Probiotics Biome Muscle Probiotic",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        }
+      ],
+      "documentedChildCandidates": [],
+      "qualityDocumentsVerified": 0
+    },
+    {
+      "productId": 974,
+      "name": "Rhodiola",
+      "catalogueBrand": "Product not specified",
+      "matchStatus": "Candidates only - no verified brand, SKU, formulation or batch association",
+      "labelStatus": "Checked",
+      "labelCandidates": [
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "NutraChamps",
+          "title": "Rhodiola",
+          "id": 228984,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/228984",
+          "upc": null,
+          "entryDate": "2020-06-24",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "The Vitamin Shoppe",
+          "title": "Rhodiola",
+          "id": 208768,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/208768",
+          "upc": null,
+          "entryDate": "2019-12-22",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "plnt",
+          "title": "Rhodiola",
+          "id": 80480,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/80480",
+          "upc": null,
+          "entryDate": "2017-11-20",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "BIOVEA",
+          "title": "Rhodiola",
+          "id": 249274,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/249274",
+          "upc": null,
+          "entryDate": "2021-05-22",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Vitanica",
+          "title": "Rhodiola",
+          "id": 33478,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/33478",
+          "upc": null,
+          "entryDate": "2014-05-23",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        }
+      ],
+      "qualityDirectoryCandidates": [],
+      "documentedChildCandidates": [],
+      "qualityDocumentsVerified": 0
+    },
+    {
+      "productId": 959,
+      "name": "Sodium Bicarbonate",
+      "catalogueBrand": "Product not specified",
+      "matchStatus": "Candidates only - no verified brand, SKU, formulation or batch association",
+      "labelStatus": "Checked",
+      "labelCandidates": [
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Healthy Kidney",
+          "title": "Sodium Bicarbonate+",
+          "id": 338345,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/338345",
+          "upc": null,
+          "entryDate": "2025-09-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Healthy Kidney",
+          "title": "Sodium Bicarbonate+",
+          "id": 321234,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/321234",
+          "upc": null,
+          "entryDate": "2025-01-23",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Healthy Kidney",
+          "title": "Sodium Bicarbonate+",
+          "id": 321245,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/321245",
+          "upc": null,
+          "entryDate": "2025-02-23",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        }
+      ],
+      "qualityDirectoryCandidates": [
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "6d Sports Nutrition",
+          "title": "Sodium Bicarbonate",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Healthspan Elite",
+          "title": "Sodium Bicarbonate 1000mg",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        }
+      ],
+      "documentedChildCandidates": [],
+      "qualityDocumentsVerified": 0
+    },
+    {
+      "productId": 980,
+      "name": "Turmeric",
+      "catalogueBrand": "Product not specified",
+      "matchStatus": "Candidates only - no verified brand, SKU, formulation or batch association",
+      "labelStatus": "Checked",
+      "labelCandidates": [
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Millecor",
+          "title": "Turmeric",
+          "id": 261407,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/261407",
+          "upc": null,
+          "entryDate": "2022-05-19",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Natures Craft",
+          "title": "Turmeric Curcumin",
+          "id": 228793,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/228793",
+          "upc": null,
+          "entryDate": "2020-06-24",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Max Drive Nutrition",
+          "title": "Turmeric",
+          "id": 215132,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/215132",
+          "upc": null,
+          "entryDate": "2020-03-24",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Sculptnation",
+          "title": "Turmeric 1320 mg",
+          "id": 228752,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/228752",
+          "upc": null,
+          "entryDate": "2020-06-24",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Physician's Choice",
+          "title": "Turmeric",
+          "id": 277825,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/277825",
+          "upc": null,
+          "entryDate": "2022-10-24",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        }
+      ],
+      "qualityDirectoryCandidates": [
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Nutriburst",
+          "title": "Turmeric 3000mg",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Zooki",
+          "title": "Turmeric Zooki",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "FutureYou Cambridge",
+          "title": "Turmeric+",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "FutureYou Cambridge",
+          "title": "Turmeric+ Gold",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Healthspan Elite",
+          "title": "Opti-Turmeric",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        }
+      ],
+      "documentedChildCandidates": [],
+      "qualityDocumentsVerified": 0
+    },
+    {
+      "productId": 970,
+      "name": "Valerian",
+      "catalogueBrand": "Product not specified",
+      "matchStatus": "Candidates only - no verified brand, SKU, formulation or batch association",
+      "labelStatus": "Checked",
+      "labelCandidates": [
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "BIOVEA",
+          "title": "Valerian 500 mg",
+          "id": 208216,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/208216",
+          "upc": null,
+          "entryDate": "2019-10-23",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Thompson",
+          "title": "Valerian 50 mg",
+          "id": 36520,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/36520",
+          "upc": null,
+          "entryDate": "2014-08-26",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Himalaya",
+          "title": "Valerian",
+          "id": 3143,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/3143",
+          "upc": null,
+          "entryDate": "2011-12-23",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Radiance",
+          "title": "Valerian Root",
+          "id": 73238,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/73238",
+          "upc": null,
+          "entryDate": "2017-04-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Nature's Way",
+          "title": "Valerian",
+          "id": 328079,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/328079",
+          "upc": null,
+          "entryDate": "2025-04-24",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        }
+      ],
+      "qualityDirectoryCandidates": [],
+      "documentedChildCandidates": [],
+      "qualityDocumentsVerified": 0
+    },
+    {
+      "productId": 13,
+      "name": "Vitamin C",
+      "catalogueBrand": "Example Health",
+      "matchStatus": "Candidates only - no verified brand, SKU, formulation or batch association",
+      "labelStatus": "Checked",
+      "labelCandidates": [
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Gematria",
+          "title": "Vitamin C Complex",
+          "id": 3254,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/3254",
+          "upc": null,
+          "entryDate": "2011-12-23",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "NanoNutra",
+          "title": "Vitamin C",
+          "id": 229083,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/229083",
+          "upc": null,
+          "entryDate": "2020-06-24",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "HMS Nutrition",
+          "title": "Liposomal Vitamin C",
+          "id": 255587,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/255587",
+          "upc": null,
+          "entryDate": "2021-09-24",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Country Life",
+          "title": "Vitamin C Crystals",
+          "id": 13892,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/13892",
+          "upc": null,
+          "entryDate": "2012-10-01",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Purity Products",
+          "title": "Ultimate Vitamin C",
+          "id": 244271,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/244271",
+          "upc": null,
+          "entryDate": "2021-03-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        }
+      ],
+      "qualityDirectoryCandidates": [
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Nutrition X",
+          "title": "Vitamin C",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Optimo",
+          "title": "MILU Hydrolyzed Collagen with Vitamin C",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "PILLAR Performance",
+          "title": "Vitamin C + Zinc - Immunity Support",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Yutrition",
+          "title": "Fat Soluble Vitamin C",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Cróga",
+          "title": "Cróga Collagen and Vitamin C",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        }
+      ],
+      "documentedChildCandidates": [],
+      "qualityDocumentsVerified": 0
+    },
+    {
+      "productId": 2,
+      "name": "Vitamin D3",
+      "catalogueBrand": "Example Health",
+      "matchStatus": "Candidates only - no verified brand, SKU, formulation or batch association",
+      "labelStatus": "Checked",
+      "labelCandidates": [
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "WeCare Naturally",
+          "title": "Vitamin D3",
+          "id": 65059,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/65059",
+          "upc": null,
+          "entryDate": "2016-09-22",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "The Vitamin Shoppe",
+          "title": "Vitamin D3",
+          "id": 245648,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/245648",
+          "upc": null,
+          "entryDate": "2021-03-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Hero Nutritionals Yummi Bears",
+          "title": "Vitamin D3",
+          "id": 268238,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/268238",
+          "upc": null,
+          "entryDate": "2022-06-16",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Meijer",
+          "title": "Vitamin D3 25 mcg",
+          "id": 230752,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/230752",
+          "upc": null,
+          "entryDate": "2020-07-23",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Meijer",
+          "title": "Vitamin D3 125 mcg",
+          "id": 230753,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/230753",
+          "upc": null,
+          "entryDate": "2020-07-23",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        }
+      ],
+      "qualityDirectoryCandidates": [
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "NORSAN",
+          "title": "Omega-3 ARKTIS mit Vitamin D3",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Nutriburst",
+          "title": "Vitamin D3 + K2",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Nutrition X",
+          "title": "Vitamin D3 + K2",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Amacx",
+          "title": "Vitamin D3",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Puresport",
+          "title": "Vitamin D3 + K2",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        }
+      ],
+      "documentedChildCandidates": [],
+      "qualityDocumentsVerified": 0
+    },
+    {
+      "productId": 224,
+      "name": "Vitamin K2",
+      "catalogueBrand": "Example Health",
+      "matchStatus": "Candidates only - no verified brand, SKU, formulation or batch association",
+      "labelStatus": "Checked",
+      "labelCandidates": [
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Woodstock Vitamins",
+          "title": "Vitamin K2",
+          "id": 216988,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/216988",
+          "upc": null,
+          "entryDate": "2020-05-22",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Divine Bounty",
+          "title": "Vitamin K2 + D3",
+          "id": 229564,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/229564",
+          "upc": null,
+          "entryDate": "2020-07-23",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "MyTrition",
+          "title": "Vitamin K2",
+          "id": 81353,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/81353",
+          "upc": null,
+          "entryDate": "2017-12-22",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Jigsaw Health",
+          "title": "Vitamin K2 + E Complex",
+          "id": 240647,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/240647",
+          "upc": null,
+          "entryDate": "2021-01-22",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Ortho Molecular Products",
+          "title": "Vitamin K2 with D3",
+          "id": 173799,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/173799",
+          "upc": null,
+          "entryDate": "2018-02-23",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        }
+      ],
+      "qualityDirectoryCandidates": [
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Revive",
+          "title": "Vitamin K2 &amp; D3",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        }
+      ],
+      "documentedChildCandidates": [],
+      "qualityDocumentsVerified": 0
+    },
+    {
+      "productId": 17,
+      "name": "Whey Protein",
+      "catalogueBrand": "Example Performance",
+      "matchStatus": "Candidates only - no verified brand, SKU, formulation or batch association",
+      "labelStatus": "Checked",
+      "labelCandidates": [
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Precision Engineered",
+          "title": "Whey Protein Creamy Vanilla",
+          "id": 21441,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/21441",
+          "upc": null,
+          "entryDate": "2014-01-24",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Precision Engineered",
+          "title": "Whey Protein Creamy Vanilla",
+          "id": 18190,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/18190",
+          "upc": null,
+          "entryDate": "2013-02-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Precision Engineered",
+          "title": "Whey Protein Wild Strawberry",
+          "id": 18189,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/18189",
+          "upc": null,
+          "entryDate": "2013-02-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Precision Engineered",
+          "title": "Whey Protein Wild Strawberry",
+          "id": 18114,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/18114",
+          "upc": null,
+          "entryDate": "2013-02-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Body Attack Sports Nutrition",
+          "title": "100% Whey Protein Natural",
+          "id": 334167,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/334167",
+          "upc": null,
+          "entryDate": "2025-09-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        }
+      ],
+      "qualityDirectoryCandidates": [
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Musashi",
+          "title": "100% Whey / Whey Protein",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Myprotein",
+          "title": "Impact Whey Protein Elite",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "NAMEDSPORT&gt;",
+          "title": "100% Whey Protein Shake",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Nduranz",
+          "title": "Whey protein",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Now Foods",
+          "title": "NOW Sports Organic Whey Protein",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        }
+      ],
+      "documentedChildCandidates": [],
+      "qualityDocumentsVerified": 0
+    },
+    {
+      "productId": 21,
+      "name": "Zinc",
+      "catalogueBrand": "Example Minerals",
+      "matchStatus": "Candidates only - no verified brand, SKU, formulation or batch association",
+      "labelStatus": "Checked",
+      "labelCandidates": [
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "DaVinci Laboratories Of Vermont",
+          "title": "Zinc Picolinate",
+          "id": 23720,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/23720",
+          "upc": null,
+          "entryDate": "2013-07-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Cardiovascular Research",
+          "title": "Zinc Picolinate",
+          "id": 23026,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/23026",
+          "upc": null,
+          "entryDate": "2013-06-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Health Products Distributors",
+          "title": "Double Zinc Plus",
+          "id": 285510,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/285510",
+          "upc": null,
+          "entryDate": "2023-05-24",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "NutriCology",
+          "title": "Zinc Picolinate",
+          "id": 234786,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/234786",
+          "upc": null,
+          "entryDate": "2020-09-25",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        },
+        {
+          "source": "NIH DSLD",
+          "type": "Label candidate",
+          "brand": "Allergy Research Group",
+          "title": "Zinc Picolinate",
+          "id": 208515,
+          "url": "https://api.ods.od.nih.gov/dsld/v9/label/208515",
+          "upc": null,
+          "entryDate": "2019-10-23",
+          "note": "US label listing; catalogue product and current formulation not verified"
+        }
+      ],
+      "qualityDirectoryCandidates": [
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Orthosapri Pro",
+          "title": "Multi Mineral Zinc",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "PILLAR Performance",
+          "title": "Vitamin C + Zinc - Immunity Support",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Precision Engineered by Holland &amp; Barrett",
+          "title": "Magnesium &amp; Zinc",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Healthspan Elite",
+          "title": "Zinc + Vitamin C",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        },
+        {
+          "source": "Informed Sport",
+          "type": "Directory candidate",
+          "brand": "Healthspan Elite",
+          "title": "Zinc Defence Lozenges",
+          "url": "https://sport.wetestyoutrust.com/certified-products",
+          "observedAt": "2026-09-25T20:22:48.136Z",
+          "note": "Directory name candidate; exact product, certification status and batch not verified"
+        }
+      ],
+      "documentedChildCandidates": [],
+      "qualityDocumentsVerified": 0
+    }
+  ]
+}

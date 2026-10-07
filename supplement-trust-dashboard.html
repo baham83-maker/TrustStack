@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Supplement Trust Intelligence dashboard for evidence, safety, quality, contamination risk, regulation and value.">
+  <title>Supplement Trust Intelligence</title>
+  <style>
+    :root{--bg:#f8fafc;--surface:#fff;--surface2:#f1f5f9;--text:#0f172a;--muted:#64748b;--border:#e2e8f0;--primary:#0f766e;--primary2:#115e59;--green:#059669;--amber:#d97706;--red:#dc2626;--blue:#2563eb;--shadow:0 8px 28px rgba(15,23,42,.07)}
+    body.dark{--bg:#020617;--surface:#0f172a;--surface2:#1e293b;--text:#f8fafc;--muted:#94a3b8;--border:#334155;--shadow:0 8px 28px rgba(0,0,0,.3)}
+    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,Segoe UI,Arial,sans-serif;transition:.25s}button,input,select{font:inherit}button{cursor:pointer}.header{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--surface) 94%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}
+    .header-inner,.container{max-width:1280px;margin:auto;padding-left:22px;padding-right:22px}.header-inner{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:16px}.brand{display:flex;align-items:center;gap:12px}.logo{width:44px;height:44px;border-radius:14px;background:var(--primary);display:grid;place-items:center;color:#fff;font-size:23px}.brand h1{font-size:20px;margin:0}.brand p{margin:3px 0 0;color:var(--muted);font-size:12px}.actions{display:flex;align-items:center;gap:9px}.updated{text-align:right;font-size:11px;color:var(--muted)}
+    .btn{border:1px solid var(--border);background:var(--surface);color:var(--text);padding:9px 14px;border-radius:999px;font-weight:700;display:flex;align-items:center;gap:7px}.btn-primary{background:var(--primary);border-color:var(--primary);color:white}.btn:hover{transform:translateY(-1px)}.btn:disabled{opacity:.6;cursor:wait}.spin{animation:spin 1s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}
+    .container{padding-top:24px;padding-bottom:35px}.kpis{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}.card{background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:18px;box-shadow:var(--shadow)}.kpi-icon{font-size:20px}.kpi-value{font-size:26px;font-weight:800;margin-top:12px}.kpi-label{font-size:12px;color:var(--muted);margin-top:3px}.hero{margin-top:18px;padding:28px;border:1px solid #99f6e4;background:linear-gradient(135deg,var(--surface),color-mix(in srgb,var(--primary) 10%,var(--surface)));border-radius:28px}.eyebrow{display:inline-block;background:var(--primary);color:#fff;border-radius:999px;padding:6px 11px;font-size:12px;font-weight:800}.hero h2{font-size:32px;max-width:760px;margin:15px 0 7px}.hero p{max-width:720px;color:var(--muted);line-height:1.6;margin:0}.filters{margin-top:18px;display:grid;grid-template-columns:1fr 190px 180px 165px;gap:10px}.control{width:100%;border:1px solid var(--border);background:var(--surface);color:var(--text);padding:12px 14px;border-radius:13px;outline:none}.control:focus{border-color:#14b8a6;box-shadow:0 0 0 3px rgba(20,184,166,.12)}
+    .layout{display:grid;grid-template-columns:300px 1fr;gap:18px;margin-top:18px}.product-list h3{margin:0 0 12px}.product{width:100%;border:1px solid var(--border);background:var(--surface);color:var(--text);padding:13px;border-radius:13px;margin-bottom:9px;text-align:left}.product.active{border-color:#14b8a6;background:color-mix(in srgb,var(--primary) 8%,var(--surface))}.product-row{display:flex;align-items:center;justify-content:space-between;gap:10px}.product-name{font-weight:750}.product-type{font-size:12px;color:var(--muted);margin-top:2px}.small-score{font-size:21px;font-weight:850;color:var(--primary)}.main{display:grid;gap:18px}.product-head{display:flex;align-items:flex-start;justify-content:space-between;gap:14px;flex-wrap:wrap}.product-brand{font-size:13px;color:var(--muted)}.product-head h2{margin:3px 0 9px}.badges{display:flex;gap:7px;flex-wrap:wrap}.badge{display:inline-block;padding:5px 10px;border-radius:999px;font-size:12px;font-weight:750;border:1px solid var(--border)}.badge.good{background:#d1fae5;color:#065f46;border-color:#a7f3d0}.score-circle{width:116px;height:116px;border:9px solid #a7f3d0;background:#ecfdf5;color:#047857;border-radius:50%;display:grid;place-content:center;text-align:center}.score-circle strong{font-size:40px}.score-circle span{font-size:11px}.metrics{display:grid;grid-template-columns:repeat(7,1fr);gap:10px;margin-top:18px}.metric{border:1px solid var(--border);border-radius:15px;padding:13px;background:var(--surface2)}.metric-label{display:flex;justify-content:space-between;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;font-size:10px;font-weight:800}.metric-value{font-size:26px;font-weight:850;margin-top:7px}.green{color:var(--green)}.amber{color:var(--amber)}.red{color:var(--red)}.bar{height:7px;background:var(--border);border-radius:99px;overflow:hidden;margin-top:9px}.bar span{display:block;height:100%;border-radius:99px}.two-col{display:grid;grid-template-columns:1fr 1fr;gap:18px}.recommend{background:#ecfdf5;color:#064e3b;border-color:#a7f3d0}.dark .recommend{background:#052e2b;color:#d1fae5;border-color:#115e59}.section-title{margin:0 0 12px;font-size:16px}.detail{font-size:14px;line-height:1.55}.notice{margin-top:12px;padding:11px;border-radius:12px;background:color-mix(in srgb,var(--surface) 75%,transparent);font-size:12px}.risk-list{display:grid;gap:9px;font-size:14px}.risk-scale{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-top:14px}.risk-scale span{padding:8px 5px;border-radius:9px;text-align:center;font-size:10px;font-weight:800}.low{background:#d1fae5;color:#065f46}.moderate{background:#fef9c3;color:#854d0e}.high{background:#ffedd5;color:#9a3412}.critical{background:#fee2e2;color:#991b1b}.price-head{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}.table-wrap{overflow:auto;margin-top:10px}table{width:100%;border-collapse:collapse;min-width:590px}th,td{padding:12px;text-align:left;border-bottom:1px solid var(--border);font-size:13px}th{color:var(--muted)}.best{background:#d1fae5;color:#065f46;border-radius:99px;padding:5px 9px;font-size:11px;font-weight:800}.price-note{font-size:11px;color:var(--muted);margin-top:11px}.refresh-status{display:none;margin-top:12px;padding:11px;border-radius:12px;background:#dbeafe;color:#1e3a8a;font-size:12px}.refresh-status.show{display:block}.footer{text-align:center;color:var(--muted);font-size:11px;margin-top:25px}
+    @media(max-width:1050px){.kpis{grid-template-columns:repeat(3,1fr)}.metrics{grid-template-columns:repeat(4,1fr)}.filters{grid-template-columns:1fr 1fr}.layout{grid-template-columns:250px 1fr}}
+    @media(max-width:760px){.updated{display:none}.header-inner{align-items:flex-start;padding-top:12px;padding-bottom:12px}.actions{flex-wrap:wrap;justify-content:flex-end}.btn span.label{display:none}.kpis{grid-template-columns:1fr 1fr}.hero h2{font-size:25px}.filters{grid-template-columns:1fr}.layout{grid-template-columns:1fr}.metrics{grid-template-columns:1fr 1fr}.two-col{grid-template-columns:1fr}.product-list{max-height:330px;overflow:auto}}
+  </style>
+</head>
+<body>
+<header class="header">
+  <div class="header-inner">
+    <div class="brand"><div class="logo">🛡</div><div><h1>Supplement Trust Intelligence</h1><p>Evidence • Safety • Purity • Regulatory • Value</p></div></div>
+    <div class="actions">
+      <div class="updated"><div>Data updated</div><strong id="lastUpdated">Just now</strong></div>
+      <button class="btn btn-primary" id="refreshBtn" type="button" aria-label="Refresh dashboard data"><span id="refreshIcon">↻</span><span class="label" id="refreshLabel">Refresh data</span></button>
+      <button class="btn" id="themeBtn" type="button" aria-label="Switch theme"><span id="themeIcon">🌙</span><span class="label" id="themeLabel">Dark</span></button>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <section class="kpis" aria-label="Dashboard summary">
+    <article class="card"><div class="kpi-icon">🏆</div><div class="kpi-value">91</div><div class="kpi-label">Highest Trust</div></article>
+    <article class="card"><div class="kpi-icon">💷</div><div class="kpi-value">Vitamin D3</div><div class="kpi-label">Best Value</div></article>
+    <article class="card"><div class="kpi-icon">⚠️</div><div class="kpi-value">1</div><div class="kpi-label">Products Flagged</div></article>
+    <article class="card"><div class="kpi-icon">✅</div><div class="kpi-value">3</div><div class="kpi-label">Verified Products</div></article>
+    <article class="card"><div class="kpi-icon">📈</div><div class="kpi-value">69</div><div class="kpi-label">Average Trust</div></article>
+  </section>
+
+  <section class="hero">
+    <span class="eyebrow">Global Evidence, Safety & Value Intelligence</span>
+    <h2>Make supplement decisions explainable, traceable and region-aware.</h2>
+    <p>Prototype dashboard combining evidence quality, safety, product verification, regulatory status, contamination risk and supplier value.</p>
+    <div class="refresh-status" id="refreshStatus" role="status" aria-live="polite"></div>
+  </section>
+
+  <section class="filters" aria-label="Product filters">
+    <input class="control" id="search" type="search" placeholder="Search supplement, brand or type…" aria-label="Search supplements">
+    <select class="control" id="typeFilter" aria-label="Supplement type"><option value="all">All supplement types</option><option>Performance</option><option>Vitamin</option><option>Botanical</option><option>Blend</option></select>
+    <select class="control" id="categoryFilter" aria-label="Category"><option value="all">All categories</option><option>Sports Performance</option><option>Vitamins</option><option>Botanicals</option></select>
+    <select class="control" id="regionFilter" aria-label="Region"><option value="Global">Global</option><option>UK</option><option>EU</option><option>US</option><option>Canada</option></select>
+  </section>
+
+  <section class="layout">
+    <aside class="card product-list"><h3>Products</h3><div id="productList"></div></aside>
+    <div class="main">
+      <section class="card">
+        <div class="product-head">
+          <div><div class="product-brand" id="brand"></div><h2 id="productName"></h2><div class="badges"><span class="badge good" id="status"></span><span class="badge" id="confidence"></span></div></div>
+          <div class="score-circle"><strong id="score"></strong><span>Trust score</span></div>
+        </div>
+        <div class="metrics" id="metrics"></div>
+      </section>
+
+      <div class="two-col">
+        <section class="card recommend"><h3 class="section-title">✨ Recommendation</h3><div class="detail"><strong>Best suited for:</strong> <span id="bestFor"></span></div><div class="notice">Decision support only. Confirm the exact product, dose, batch and personal suitability with a qualified healthcare professional.</div></section>
+        <section class="card"><h3 class="section-title">🌍 Risk intelligence</h3><div class="risk-list"><div>🟢 Regulatory status: <span id="regLabel"></span></div><div id="contaminationLabel"></div><div>🔵 Athlete risk: Verify sport certification by batch</div><div>🟡 Interaction risk: Review medicines and health conditions</div></div><div class="risk-scale"><span class="low">Low<br>0–25</span><span class="moderate">Moderate<br>26–50</span><span class="high">High<br>51–75</span><span class="critical">Critical<br>76–100</span></div></section>
+      </div>
+
+      <section class="card">
+        <div class="price-head"><h3 class="section-title">💷 Supplier Price Comparison</h3><span class="badge good" id="valueBadge"></span></div>
+        <div class="table-wrap"><table><thead><tr><th>Supplier</th><th>Price</th><th>Cost / serving</th><th>Status</th></tr></thead><tbody id="prices"></tbody></table></div>
+        <div class="price-note">Prices are illustrative prototype data and exclude delivery. Production value scoring should compare equivalent formulation, pack size and clinically relevant dose.</div>
+      </section>
+    </div>
+  </section>
+
+  <footer class="footer">Supplement Trust Intelligence • Prototype • Informational decision support only, not medical advice</footer>
+</main>
+
+<script>
+const products=[
+{name:"Creatine Monohydrate",brand:"Example Performance",type:"Performance",category:"Sports Performance",score:91,evidence:95,safety:92,quality:90,transparency:84,regulatory:88,contamination:12,value:92,status:"Recommended",confidence:"High",bestFor:"Strength, power and repeated high-intensity performance"},
+{name:"Vitamin D3",brand:"Example Health",type:"Vitamin",category:"Vitamins",score:84,evidence:87,safety:86,quality:81,transparency:78,regulatory:82,contamination:18,value:95,status:"Recommended when appropriate",confidence:"High",bestFor:"Supporting vitamin D intake where appropriate"},
+{name:"Ashwagandha",brand:"Example Botanicals",type:"Botanical",category:"Botanicals",score:63,evidence:62,safety:58,quality:70,transparency:72,regulatory:50,contamination:42,value:72,status:"Consider with caution",confidence:"Moderate",bestFor:"Selected stress-related outcomes after suitability review"},
+{name:"Pre-Workout Blend",brand:"Example Labs",type:"Blend",category:"Sports Performance",score:38,evidence:42,safety:34,quality:38,transparency:22,regulatory:48,contamination:68,value:35,status:"Not recommended",confidence:"Low",bestFor:"No recommendation until formulation and testing are verified"}
+];
+const prices={
+"Creatine Monohydrate":[["Bulk",19.99,100],["MyProtein",22.49,100],["Amazon UK",24.95,100],["Holland & Barrett",27.99,100]],
+"Vitamin D3":[["Boots",5.49,90],["Amazon UK",6.99,120],["Holland & Barrett",7.49,100],["iHerb",8.25,120]],
+"Ashwagandha":[["iHerb",14.50,60],["Amazon UK",16.99,60],["Holland & Barrett",19.99,60],["Boots",21.50,60]],
+"Pre-Workout Blend":[["MyProtein",21.99,30],["Bulk",23.49,30],["Amazon UK",27.99,30],["Specialist retailer",31.50,30]]
+};
+let selected=products[0];
+const el=id=>document.getElementById(id);
+function band(v,inverse=false){const good=inverse?100-v:v;return good>=80?"green":good>=60?"amber":"red"}
+function contamination(v){return v<=25?["🟢","Low"]:v<=50?["🟡","Moderate"]:v<=75?["🟠","High"]:["🔴","Critical"]}
+function metric(label,value,icon,inverse=false){const good=inverse?100-value:value;const c=band(value,inverse);return `<article class="metric"><div class="metric-label"><span>${label}</span><span>${icon}</span></div><div class="metric-value ${c}">${value}</div><div class="bar"><span style="width:${good}%;background:var(--${c==='green'?'green':c==='amber'?'amber':'red'})"></span></div></article>`}
+function filtered(){const q=el('search').value.trim().toLowerCase(),type=el('typeFilter').value,cat=el('categoryFilter').value;return products.filter(p=>(p.name+p.brand+p.type).toLowerCase().includes(q)&&(type==='all'||p.type===type)&&(cat==='all'||p.category===cat))}
+function renderList(){const list=filtered();el('productList').innerHTML=list.length?list.map(p=>`<button class="product ${p.name===selected.name?'active':''}" data-name="${p.name}"><div class="product-row"><div><div class="product-name">${p.name}</div><div class="product-type">${p.type}</div></div><div class="small-score">${p.score}</div></div></button>`).join(''):'<p class="product-type">No matching supplements.</p>';document.querySelectorAll('.product').forEach(b=>b.onclick=()=>{selected=products.find(p=>p.name===b.dataset.name);render()})}
+function render(){renderList();el('brand').textContent=selected.brand;el('productName').textContent=selected.name;el('status').textContent=selected.status;el('confidence').textContent=selected.confidence+' confidence';el('score').textContent=selected.score;el('bestFor').textContent=selected.bestFor;el('regLabel').textContent=selected.regulatory>=70?'No material demo alert':'Review required';const c=contamination(selected.contamination);el('contaminationLabel').textContent=`${c[0]} Contamination risk: ${c[1]} (${selected.contamination}/100)`;el('valueBadge').textContent=`Value rating ${selected.value}/100`;el('metrics').innerHTML=[metric('Evidence',selected.evidence,'🔬'),metric('Safety',selected.safety,'🛡'),metric('Quality',selected.quality,'🧪'),metric('Transparency',selected.transparency,'📖'),metric('Regulatory',selected.regulatory,'⚖'),metric('Contamination',selected.contamination,'☣',true),metric('Value',selected.value,'💷')].join('');const rows=prices[selected.name].map(x=>({...x,supplier:x[0],price:x[1],servings:x[2],unit:x[1]/x[2]}));const min=Math.min(...rows.map(x=>x.unit));el('prices').innerHTML=rows.map(x=>`<tr><td><strong>${x.supplier}</strong></td><td>£${x.price.toFixed(2)}</td><td>£${x.unit.toFixed(2)}</td><td>${x.unit===min?'<span class="best">🏆 Best Buy</span>':''}</td></tr>`).join('')}
+['search','typeFilter','categoryFilter','regionFilter'].forEach(id=>el(id).addEventListener(id==='search'?'input':'change',renderList));
+el('themeBtn').onclick=()=>{document.body.classList.toggle('dark');const d=document.body.classList.contains('dark');el('themeIcon').textContent=d?'☀️':'🌙';el('themeLabel').textContent=d?'Light':'Dark'};
+el('refreshBtn').onclick=async()=>{const btn=el('refreshBtn'),icon=el('refreshIcon'),label=el('refreshLabel'),status=el('refreshStatus');btn.disabled=true;icon.classList.add('spin');label.textContent='Refreshing…';status.className='refresh-status show';status.textContent='Requesting approved open-data feeds…';try{const r=await fetch('/api/v1/ingestion/run',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({feeds:['dsld','pubmed','openfda','fsa','healthcanada']})});if(!r.ok)throw new Error();status.textContent='Refresh started successfully. New records will appear after validation and review.'}catch{await new Promise(resolve=>setTimeout(resolve,700));status.textContent='Preview mode: connect /api/v1/ingestion/run to start live ingestion.'}finally{const now=new Date();el('lastUpdated').textContent=now.toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'});btn.disabled=false;icon.classList.remove('spin');label.textContent='Refresh data'}};
+render();
+</script>
+</body>
+</html>
